@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AP Creation</title>
+   <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href=".\css\style1.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <!-- <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e024205a7650f00122a6d4b&product=inline-share-buttons" async="async"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Muli|Noto+Serif&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+ <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+  <link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="icon-bar" style="z-index: 1;">
+  <!-- <a href="https://api.whatsapp.com/send?phone=+917036231237" class="facebook"><i class="fa fa-facebook"></i></a>  -->
+  
+  <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.indiamart.com%2Fap-creation-indore%2F%3Ffbclid%3DIwAR0EnbBJ06zL4yKf4MPxMpd0p10aKOrqTb33fKAllVUehaAhgpcCnDw7RuU&h=AT18IBjzhEiZgTNq_vfTOdS8q4gjahmVZik6lGIw1RnBXphYvMT32LMvLhXx6oXI0rIYAHDFIYfXTuyfpYIxi0gmBI7eI5tLHUsSkISMxhXDGWMNWqt8_vejM_7h1zioDJbJEg" style="padding: 5px;" class="twitter"><img src="./images1/smiley/indiamart3.png"></a> 
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=+917036231237&text=Hello, I would like to get details of the following products.
+  1-Metal Badges
+  2-Wodden Badges
+  3-Acrylic Badges
+  4-Button Badges
+  5-School Badges
+  6-Security Badges
+  7-Event Badges
+  8-Smiley Badges
+  9-Promotional Badges" class="whatsapp"><i class="fa fa-whatsapp" href="https://api.whatsapp.com/send?phone=+917036231237" aria-hidden="true"></i></a> 
+</div>
+<script>
+  $(window).scroll(function() {
+
+    //After scrolling 100px from the top...
+    if ( $(window).scrollTop() <= 100) {
+        $('#noc').css('visibility','hidden');
+        $('#noc').css('color','#000000');
+      
+      }
+    else {
+        $('#noc').attr('style', '');
+       
+
+    }
+});
+  $(window).scroll(function() {
+
+    //After scrolling 530px from the top...
+    if ( $(window).scrollTop() >= 530) {
+        $('.second').css('visibility','visible');
+        $('.topnav').css('background','linear-gradient(to left, #000000 -10%, #ffffff 90%)');
+        $('#noc').css('color', '#100c08');
+        $('.icon').css('color', '#100c08');
+        // $('.icon-bar').css('visibility', 'visible');
+      }
+    else {
+        $('.second').attr('style', '');
+        $('.topnav').attr('style', '');
+        $('#noc').attr('style', '');
+        $('.icon').attr('style', '');
+        
+    }
+
+});
+
+$(window).scroll(function() {
+  if ( $(window).scrollTop() >= 530){
+    $('.icon-bar').css('visibility', 'visible');
+  }
+  else{
+    $('.icon-bar').css('visibility', 'hidden');
+  
+  }
+});
+function navFunction(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
+
+  
+  <div class="topnav">
+  <a href="javascript:void(0);" class="icon" onclick="navFunction('psuedonav')">
+    <center><i style="margin-left: 15px;" class="fa fa-bars"></i></center></a>
+  <a href="" id="noc">AP Creation</a>
+  <a href="" class="second" id="bad2">Badges  |</a>
+  <a href="" class="second">Key Chains  |</a>
+  <a href="" class="second">Ball Pens  |</a>
+  <a href="" class="second">Mobile Pop Holder  |</a>
+  <a href="#new" class="first" id="hom">Home  |</a>
+  <a href="#about" class="first">About Us  |</a>
+  <a href="#cea" class="first">Contact Us  |</a>	
+  <a href="tel:+917036231237" class="firstn"><i class="fa fa-phone" aria-hidden="true"></i> 7036231237</a>
+  <!-- <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+    <i class="fa fa-bars"></i> -->
+  <button class="btn btn-info" id="enquire">
+    <a href="#nav2" id="gotoform">Enquire now</a>
+  </button>
+  </div>
+<div id="psuedonav">
+  <a href="#new">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#cea">Contact Us</a>
+  <li href="" id="prodc">Product Categories</li>
+  <a href="">Badges</a>
+  <a href="">Key Chains</a>
+  <a href="">Ball Pens</a>
+  <a href="">Mobile Pop Holder</a>
+</div>
+<div class="container-fluid" style="height: 500px;">
+<div class="row"  id="new">
+  <div class="col-lg-9" style="height: 500px;">
+  
+  <div class="container" id="maint">
+    <p><h1><center id="welc1">Welcome to AP Creation!</center></h1></p>
+    <p><h3> <center id="welc">Complete Customization | Premium Quality | Free Artwork | On-time delivery at your doorstep |
+Appealing Shapes | Dome Epoxy Coating</center></h3></p><!-- </div> -->
+
+    <div class="row" style="height: 100px;" id="wce">
+      
+       
+    </div>        
+  </div>
+</div>
+
+<div class="col-lg-3" style="height: 300px;">
+  <div class="container" style="height: 420px;">
+    <div id="form2">
+          <iframe src="" name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){window.location='file:///C:/Users/AMITESH/Desktop/badge1/index.html?thankyou=1';
+           }"></iframe>
+         <form action="https://docs.google.com/forms/d/e/1FAIpQLScG8hY4fan4E5MJ4eof0ASsczzf8htfqUjErl8t29-vMaa-cg/formResponse?" method="POST" target="hidden_iframe" onsubmit="submitted=true">
+    
+    <div class="form-group">
+      <label for="name" id="forml">*Name</label>
+      <input type="name" class="form-control" id="formi" placeholder="Enter name" name="entry.1290377782" required>
+    </div>
+     <div class="form-group">
+      <label for="pnumber" class="formln">*Phone Number</label>
+      <input type="pnumber" id="formin" class="form-control" placeholder="Enter phone number" name="entry.1751427031" required onkeyup="check2(); return false;"><span id="message1"></span>
+    </div>
+    <div class="form-group">
+      <label for="email" class="formln">Email</label>
+      <input type="email" id="formie" class="form-control" placeholder="Enter Email" name="entry.363444995">
+    </div>
+    <div class="form-group">
+      <label for="productcategory" class="formln">Product Category</label>
+      <select type="productcategory" id="formip" name="entry.1901932496">
+      <option value="Metal">Metal</option>
+      <option value="Acrylic">Acrylic</option>
+      <option value="Button">Button</option>
+      <option value="not_sure">Not Sure</option>
+    </select>
+    </div>
+    <div class="form-group">
+      <label for="budget" class="formln">Budget</label>
+      <input type="budget" id="formib" class="form-control" placeholder="Enter Budget" name="entry.856466517">
+    </div>
+    <div class="form-group">
+      <label for="quantity" class="formln">Quantity</label>
+      <input type="quantity" id="formiq" class="form-control" placeholder="Enter Quantity" name="entry.447000353">
+    </div>
+    <div class="form-group">
+      <button class=" btn btn-primary" style="display:block; margin-left: 15px;  margin-top: 10px; border-radius: 15px;" onclick="window.location.href='https://script.google.com/macros/s/AKfycbyHVLrTdeKIz8q7jbPbyBkOENm5qDN-BpLYXb97C1yl/dev'"> Upload Image</button>
+    </div>
+    <div class="form-group">
+      <label for="comment" class="formln">Add comment</label>
+      <input type="comment" id="formic" class="form-control" placeholder="Any Comments" name="entry.1281807115">
+    </div> 
+    <input type="text" class="change" id="utm_source" name="entry.1752881774" placeholder="Your comment.." style="display: none;">
+    <input type="text" class="change" id="utm_campaign" name="entry.1847582634" placeholder="Your comment.." style="display: none;">
+    <input type="text" class="change" id="utm_medium" name="entry.601919432" placeholder="Your comment.." style="display: none;">
+    <input type="text" class="change" id="keyword" name="entry.293828544" placeholder="Your comment.." style="display: none;">
+    <button type="submit" class="btn btn-success" style=" display: block; margin-top: -10px; margin-left: auto; margin-right: auto;">Get Quotation</button>
+  </form>
+        
+      </div>
+
+  </div>
+</div>
+</div>
+</div>
+<div class="container-fluid" style="z-index: 1; position: relative;">
+<div class="row" id="nav2">
+  <div class="container" id="nav2c">
+    <a href=""  class="third" id="bad3">Badges  |</a>
+     <a href="" class="third">Keychains  |</a>
+    <a href="" class="third" id="ballp">Ball Pens  |</a>
+    <a href="" class="third" id="mobpop">Mobile Pop Holder  |</a>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row" id="cat1">
+  
+  <div class="col-lg-8" id="imagetext">
+    <div id="entity1">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6" id="photo">
+          <div id="demo1" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo1" data-slide-to="0" class="active"></li>
+    <li data-target="#demo1" data-slide-to="1"></li>
+    <li data-target="#demo1" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/metal/IMG_8888.jpg" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/metal/IMG_8921.JPG" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/metal/IMG_8928.JPG" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+        <article>
+      <p><h4><center>Metal Badges</center></h4></p>
+      <p class="cont"> Available with the richness of brass, stainless steel, tin, and more. These vibrant, shiny badges with a customized shape, material, laminations and pins look flawless, just the way you want. With affordable prices and magnetic variants, these are perfect for anything.
+</p>
+    </article>
+        </div>
+        
+      </div>
+    </div>
+    <div id="entity2">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6 " id="photo">
+          <div id="demo2" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo2" data-slide-to="0" class="active"></li>
+    <li data-target="#demo2" data-slide-to="1"></li>
+    <li data-target="#demo2" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/button/IMG_8994.jpg" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/button/IMG_9017.jpg" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/button/IMG_9029.jpg" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo2" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+           <article>
+      <p><h4><center>Button Badges</center></h4></p>
+      <p class="cont"><center class="cont">  Most common yet trendy, it could be a cartoon, smiley, design, brand, logo...anything. Stick it to your bag, shirt or uniform, use it for an event or promotion. With all the customizations available in 58mm and 44mm sizes, get the badge you need.
+
+
+      </center>
+
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+        </div>
+        
+      </div>
+      
+    </div>
+    </div>
+  <div class="col-lg-4" id="form">
+    
+   <div id="form1" style="z-index: 2;">
+         <iframe src="" name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){window.location='file:///C:/Users/AMITESH/Desktop/badge1/index.html?thankyou=1';
+           }"></iframe>
+         <form action="https://docs.google.com/forms/d/e/1FAIpQLScG8hY4fan4E5MJ4eof0ASsczzf8htfqUjErl8t29-vMaa-cg/formResponse?" method="POST" target="hidden_iframe" onsubmit="submitted=true">
+    
+    <label for="fname" class="change1">*Name</label>
+    <input type="text" style="display: block; margin-top: -10px;" class="change" id="fname" name="entry.1290377782"placeholder="Your name.." required>
+
+    <label for="pnumber" class="change1">*Phone number</label>
+    <input type="text" style="display: block; margin-top: -10px;" class="change" id="pnumber" name="entry.1751427031" placeholder="Your Phone number.." required onkeyup="check(); return false;" ><span id="message"></span>
+    
+    <label for="email" class="change1" id="em">*Email</label>
+    <input type="text" style="display: block; margin-top: -10px;" class="change" id="email" name="entry.363444995" placeholder="Your Email id..">
+    
+    <label for="product category" class="change1">Product Category</label>
+    <select id="productcategory" style="display: block; margin-top: -10px;" class="change" name="entry.1901932496">
+      <option value="Metal">Metal</option>
+      <option value="Acrylic">Acrylic</option>
+      <option value="Button">Button</option>
+      <option value="not_sure">Not Sure</option>
+    </select>
+    <label for="budget" class="change1">Budget</label>
+    <input type="text" style="display: block; margin-top: -10px;" name="entry.856466517"  class="change">
+    <label for="quantity" class="change1">Quantity</label>
+    <input type="text" style="display: block; margin-top: -10px;" class="change" name="entry.447000353" placeholder="Your quantity..">
+    <button class="btn btn-primary" style="display:block; margin-top: 10px; border-radius: 15px;" onclick="window.location.href='https://script.google.com/macros/s/AKfycbyHVLrTdeKIz8q7jbPbyBkOENm5qDN-BpLYXb97C1yl/dev'"> Upload Image</button>
+    <label for="comment" class="change1">Comment</label>
+    <input type="text" style="display: block; margin-top: -10px;" class="change" id="comment" name="entry.1281807115" placeholder="Your comment..">
+    <input type="text" class="change" id="utm_source1" name="entry.1752881774" placeholder="Your comment.." style="display: none;">
+    <input type="text" class="change" id="utm_campaign1" name="entry.1847582634" placeholder="Your comment.." style="display: none;">
+    <input type="text" class="change" id="utm_medium1" name="entry.601919432" placeholder="Your comment.." style="display: none;">
+    <input type="text" class="change" id="keyword1" name="entry.293828544" placeholder="Your comment.." style="display: none;">
+
+    <!-- <label for="image upload" class="change1">Image upload</label>
+    <input type="text" class="change" id="image upload" name="image upload" placeholder=""> -->
+    <input type="submit" value="Get Quotation" id="submit">
+  </form>
+        
+      </div>
+  </div>
+</div> 
+</div>
+<script>
+  
+  
+
+
+
+    window.onload=function(){
+    function parseURLParameter(parameter){
+
+      var FullURL=window.location.search.substring(1);
+      var ParametersArray= FullURL.split('&');
+      for(i=0; i<ParametersArray.length; i++)
+      {
+        var currentParameter=ParametersArray[i].split('=');
+        if(currentParameter[0]==parameter)
+        {
+          return(currentParameter[1]);
+        }
+      }
+    }
+  
+  var utms1=parseURLParameter('utm_source1');
+  var utmc1=parseURLParameter('utm_campaign1');
+  var utmm1=parseURLParameter('utm_medium1');
+  var key1=parseURLParameter('keyword1');
+  var PageName=parseURLParameter('page');
+  var utms=parseURLParameter('utm_source');
+  var utmc=parseURLParameter('utm_campaign');
+  var utmm=parseURLParameter('utm_medium');
+  var key=parseURLParameter('keyword');
+  console.log(utms);
+  if(typeof utm_source!=='undefined'){
+    document.getElementById("utm_source").value = utms;
+  }else{
+    $("#utm_source").val()= 'No value found';
+  }
+  if(typeof utm_campaign!=='undefined'){
+    document.getElementById("utm_campaign").value = utmc;
+  }else{
+    $("#utm_campaign").val()= 'No value found';
+  }
+  if(typeof utm_medium!=='undefined'){
+    document.getElementById("utm_medium").value = utmm;
+  }else{
+    $("#utm_medium").val()= 'No value found';
+  }
+  if(typeof keyword!=='undefined'){
+    document.getElementById("keyword").value = key;
+  }else{
+    $("#keyword").val()= 'No value found';
+  }
+
+
+  if(typeof utm_source1!=='undefined'){
+    document.getElementById("utm_source1").value = utms1;
+  }else{
+    $("#utm_source1").val()= 'No value found';
+  }
+  if(typeof utm_campaign1!=='undefined'){
+    document.getElementById("utm_campaign1").value = utmc1;
+  }else{
+    $("#utm_campaign1").val()= 'No value found';
+  }
+  if(typeof utm_medium1!=='undefined'){
+    document.getElementById("utm_medium1").value = utmm1;
+  }else{
+    $("#utm_medium1").val()= 'No value found';
+  }
+  if(typeof keyword1!=='undefined'){
+    document.getElementById("keyword1").value = key1;
+  }else{
+    $("#keyword1").val()= 'No value found';
+  }
+}
+function check()
+{
+
+    var pass1 = document.getElementById('pnumber');
+     
+    var message = document.getElementById('message');
+
+    var goodColor = "#0C6";
+    var badColor = "#FF9B37";
+    var originalcolor="#ccffff";
+    var hid="hidden";
+    var vis="visible";
+
+    if(pass1.value.length!=10){
+
+        pass1.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "required 10 digits, match requested format!"
+        document.getElementById('em').style.display=block;
+    }
+    else if(pass1.value.length==10){
+        message.innerHTML =""
+         pass1.style.backgroundColor = originalcolor;
+         document.getElementById('em').style.display=inline;
+    
+    }
+   
+  }
+function check2(){
+    var pass2 = document.getElementById('formin');
+    var message1 = document.getElementById('message1');
+    var goodColor = "#0C6";
+    var badColor = "#FF9B37";
+    var originalcolor="#ccffff";
+    var hid="hidden";
+    var vis="visible";
+
+
+   if(pass2.value.length!=10){
+
+        pass2.style.backgroundColor = badColor;
+        message1.style.color = badColor;
+        message1.innerHTML = "required 10 digits, match requested format!"
+        document.getElementById(em).style.display=hid;
+    }
+    else if(pass2.value.length==10){
+        message1.innerHTML =""
+         pass2.style.backgroundColor = originalcolor;
+         document.getElementById(em).style.display=vis;
+    
+    }
+}
+
+   var submitted=false;
+
+
+// function myalert(){
+//   var name=document.getElementById("fname");
+//   var number=document.getElementById("pnumber");
+  
+// if(name!=null && number!=null){
+//   alert("Your responses have been recorded successfully!!!");
+//   $('.change').css('display','none');
+//   $('.change1').css('display','none');
+//   $('#form1').css('background-color','blue');
+//   document.getElementById("form1").innerHTML="Thank You";
+// }
+
+// }
+// var pathRegex = C:\Users\AMITESH\Desktop\badge1\index.html?#ThankYou;
+//  if (pathRegex.test(window.location.href)) {
+//      alert("Your Form Has Been Submitted.")
+//  }
+// $( "submit" ).first().click(function() {
+//   $.alert({
+//     title: 'Alert!',
+//     content: 'Simple alert!',
+// });
+// });
+function GetURLParameter(urlParameter){ 
+        var url = window.location.search.substring(1); 
+        var urlVariables = url.split('&'); 
+        for (var i = 0; i < urlVariables.length; i++){ 
+            var parameter = urlVariables[i].split('='); 
+            if (parameter[0] == urlParameter){ 
+                return parameter[1]; 
+            } 
+        } 
+    } 
+    var k = GetURLParameter('thankyou');
+if (k == 1){
+    alert("Thank you, your responses have been submitted successfully! we'll assist you shortly..!")
+}
+// if(submitted){
+//   $('.change').css('display','none');
+//   $('.change1').css('display','none');
+// }
+</script>
+<script type="text/javascript">
+  $(window).scroll(function() {
+
+    //After scrolling 100px from the top...
+    if ( $(window).scrollTop() <= 350) {
+        $('#form1').css('display','none');
+
+      }
+    else if ( $(window).scrollTop() >= 550  &&  $(window).scrollTop() <=2750) {
+        $('#form1').css('position','fixed');
+        $('#form1').css('margin-top','-540px');
+        $('#form2').css('display','hidden');
+        // $('#menuheader').css('margin', '65px auto 0');
+
+    //Otherwise remove inline styles and thereby revert to original stying
+    } else {
+        $('#form1').attr('style', '');
+        $('#form2').attr('style', '');
+
+    }
+});
+  $(window).scroll(function() {
+    if($(window).scrollTop() <= 350){
+     $('#form2').css('visibility','visible');
+    }
+    else {
+        $('#form2').attr('style', '');
+
+    }
+    });
+ // The function actually applying the offset
+function offsetAnchor() {
+    if (location.hash.length !== 0) {
+        window.scrollTo(window.scrollX, window.scrollY - 50);
+    }
+}
+
+// This will capture hash changes while on the page
+$(window).on("hashchange", function () {
+    offsetAnchor();
+});
+
+// Let the page finish loading.
+$(document).ready(function() {
+    offsetAnchor();
+});
+function buildUrl(form)
+{ 
+  var invnum="#ThankYou";
+  form.action="file:///C:/Users/AMITESH/Desktop/badge1/index.html"+invnum;
+  return true;
+}
+</script>
+<div class="container-fluid">
+ <div class="row" id="cat2">
+  
+  <div class="col-lg-8" id="imagetext">
+    <div id="entity3">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6" id="photo">
+          <div id="demo3" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo3" data-slide-to="0" class="active"></li>
+    <li data-target="#demo3" data-slide-to="1"></li>
+    <li data-target="#demo3" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/acrylic/IMG_9044.JPG" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/acrylic/IMG_9086-2.JPG" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/acrylic/IMG_9066-3.JPG" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo3" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo3" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+           <article>
+      <p><h4><center>Acrylic Badges</center></h4></p>
+      <p class="cont"><center class="cont">Most affordable, durable, and ideal for business, events, and designation. With the customizations in shape, size, and pins, these badges can be perfect to describe anything in a badge. Further dome epoxy lamination highlights the content and makes it appealing.
+</center>
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+        </div>
+        
+      </div>
+      
+    </div>
+    <div id="entity4">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6 " id="photo">
+          <div id="demo4" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo4" data-slide-to="0" class="active"></li>
+    <li data-target="#demo4" data-slide-to="1"></li>
+    <li data-target="#demo4" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/school/IMG_9135.JPG" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/school/IMG_9153.JPG" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/school/IMG_9139.JPG" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo4" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo4" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+           <article>
+      <p><h4><center>School Badges</center></h4></p>
+      <p class="cont"><center class="cont">Children love badges, be it Prefect, Captain, Head Boy, Winner....all can be turned into a badge. Pin badges are an affordable option when you are looking for a combination of quality and price. With all the customizations available, give students a chance to flaunt their badges.
+
+</center>
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+        </div>
+        
+      </div>
+      
+    </div>
+    </div>
+  <div class="col-lg-4" id="form" style="z-index: -1;">
+   
+  </div>
+  
+</div>
+</div>
+<div class="container-fluid">
+<div class="row" id="cat3">
+  
+  <div class="col-lg-8" id="imagetext">
+    <div id="entity5">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6" id="photo">
+          <div id="demo5"  class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo5" data-slide-to="0" class="active"></li>
+    <li data-target="#demo5" data-slide-to="1"></li>
+    <li data-target="#demo5" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/wedding/IMG_9114.JPG" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/wedding/IMG_9102.JPG" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/wedding/IMG_9095.JPG" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo5" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo5" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+           <article>
+      <p><h4><center>Wedding Badges</center></h4></p>
+      <p class="cont"><center class="cont">This season add fun to your wedding with bride and groom tribe. Funky as well as traditional wedding badges, available in classy wooden and funky button badges.
+</center>
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+        </div>
+        
+      </div>
+      
+    </div>
+    <div id="entity6">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6 " id="photo">
+          <div id="demo6" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo6" data-slide-to="0" class="active"></li>
+    <li data-target="#demo6" data-slide-to="1"></li>
+    <li data-target="#demo6" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/name/IMG_9183.JPG" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/name/IMG_9145.JPG" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/name/IMG_9173.JPG" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo6" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo6" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+           <article>
+      <p><h4><center>Name Badges</center></h4></p>
+      <p class="cont"><center class="cont">Want everyone to know you ? Wear you identity, to complete your attire. Premium name badges available in all shapes and size with dome epoxy lamination, making it much more durable.
+</center>
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+        </div>
+        
+      </div>
+      
+    </div>
+    </div>
+  <div class="col-lg-4" id="form" style="z-index: -1;">
+   
+  </div>
+  
+</div>
+</div>
+<div class="container-fluid">
+<div class="row" id="cat4">
+  
+  <div class="col-lg-8" id="imagetext">
+    <div id="entity7">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6" id="photo">
+          <div id="demo7" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo7" data-slide-to="0" class="active"></li>
+    <li data-target="#demo7" data-slide-to="1"></li>
+    <li data-target="#demo7" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/smiley/Smiley4.JPG" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/smiley/Smiley5.png" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/smiley/Smiley6.JPG" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo7" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo7" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+           <article>
+      <p><h4><center>Smiley Badges</center></h4></p>
+      <p class="cont"><center class="cont">This season spread smiles with a badge on you. Add it to your backpack or your uniform, these affordable, shiny and cute badges fill the air with happiness.
+
+</center>
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+        </div>
+        
+      </div>
+      
+    </div>
+    <div id="entity8">
+    <div class="row" id="innerentity">
+        <div class="col-lg-6 " id="photo">
+          <div id="demo8" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo8" data-slide-to="0" class="active"></li>
+    <li data-target="#demo8" data-slide-to="1"></li>
+    <li data-target="#demo8" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images1/promotional/IMG_9188.JPG" alt="Los Angeles" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/promotional/IMG_9198.JPG" alt="Chicago" width="100%" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="./images1/promotional/IMG_9202.JPG" alt="New York" width="100%" height="300">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo8" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo8" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+        <div class="col-lg-6" id="text">
+            <article>
+      <p><h4><center id="promb">Promotional Badges</center></h4></p>
+      <p class="cont"><center id="prom"> Pin your brand on every customer with promotional badges, one of the best corporate giveaway products. A fantastic way to raise recognition of your business, because your logo will be seen every time you have printed badges fastened to your customers’ clothing.
+
+      </center>
+
+ <!-- Indian food is also heavily influenced by religion, in particular Hindu, cultural choices and traditions.The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples -->.</p>
+    </article>
+        </div>
+        
+      </div>
+      
+    </div>
+    </div>
+  <div class="col-lg-4" id="form" style="z-index: -1;">
+   
+  </div>
+</div> 
+</div>
+<div class="container-fluid">
+<div class="row" id="about">
+  <div class="container" id="abouttext">
+    <div class="container" id="aboutus">
+      <p><center><h2>About Us</h2></center></p>
+      <p id="aboutcontent">We at "AP Creation" transform designs to reality, be it Badges, Promotional T-Shirts, Keychains, or the rest. We merge in the best of art, premium quality raw material, and lots of hard work to deliver our best. In the market for the last two decades, there has been no match to the quality and prices we offer.
+Apart from products being manufactured with the most sophisticated technology in the market, our quality check units make sure each product qualifies the entire range of parameters. Under the guidance of Mr. Rajesh Agrawal, who has been an industry expert for the past 40 years, we are growing with leaps and bounds. With an adroit team of employees, we look forward to serving YOU..!
+</p>
+    </div>
+  </div>
+</div>
+</div>
+<footer>
+  <div class="container-fluid">
+  <div class="row" id="cea">
+    <div class="container" id="cea1">
+      <div class="row">
+        <div class="col-lg-4" id="contact" style="height: 400px;">
+          <center style="font-family: 'Muli', sans-serif; font-size: 45px;">Contact Us</center><!-- 
+          <img src="../images/" style="height: 250px; width: 3"> -->
+          <center><img src="./images/call7.png" style="height:120px; width:120px;"></center>
+          <p><center style="font-size: 24px; margin-top: -10px; font-family: 'Stoke', serif; text-shadow: 1px 1px 4px #080808;">Prashal Agarwal</center></p>
+          <p><center style="font-size: 22px; margin-top: -20px">+91 7036231237</center></p>
+          <p><center style="font-size: 24px; margin-top: -10px; font-family: 'Stoke', serif; text-shadow: 1px 1px 4px #080808;">Rajesh Agarwal</center></p>
+          <p><center style="font-size: 22px; margin-top: -20px">+91 7389925001</center></p>
+        </div>
+        <div class="col-lg-4" id="email" style="height: 400px;">
+          <center style="font-family: 'Muli', sans-serif; font-size: 45px;">Email Us</center>
+          <center><img src="./images/email5.png" style="height:120px; width:120px;"></center>
+          <center><p id="maillink">apcreation@hotmail.com</p></center>
+        </div>
+        <div class="col-lg-4" id="address" style="height: 400px;">
+          
+          <center style="font-family: 'Muli', sans-serif; font-size: 45px;">Our Address</center>
+          <center><img src="./images/address1.png" style="height:120px; width:120px;"></center>
+          <center><p style="font-size: 22px; font-family: 'Merriweather', serif;">19,Agrasen Nagar,Airport Road,Indore
+          Pin-452005</p></center>
+          <center><a target="_blank" href="https://www.google.com/maps/place/19,+Agrasen+Nagar,+Indore,+Madhya+Pradesh+452006/@22.7245154,75.8357861,17z/data=!3m1!4b1!4m5!3m4!1s0x3962fd9659a7006b:0x5f9fd5e5b2b9297d!8m2!3d22.7245154!4d75.8379748" class="gradient-button gradient-button-1"><i style="font-size: 15px;" class="fa fa-map-marker" aria-hidden="true"></i> Locate us on maps</a></center>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row" id="social">
+    <div class="container">
+      <p style="font-size: 40px; color: #ff3333;">
+        Serving in...
+      </p>
+      <br>
+      <p style="font-size: 15px; color: #e6e6e6">
+        Indore | Hyderabad | Mumbai | Delhi | Chennai | Banglore
+      </p>
+      <p style="font-size: 15px; color: #ffffff;">Shipping available across India</p>
+      <a href="#cat1" style="font-size: 12px; display: block; color:  #800080; margin-top: -10px;">Have special requirements?</a>
+    </div>
+  </div>
+</div>  
+</footer>
+</body>
+</html>
